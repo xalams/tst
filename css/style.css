@@ -1,0 +1,90 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    position: relative;
+    text-align: center;
+    color: white; 
+    padding: 20px;
+}
+
+
+body{
+    color: #111;
+    background-color: #111;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial Narrow Bold';
+    font-size: 5rem;
+}
+.container > span{
+    animation: glow 15s ease-in-out infinite;
+
+}
+
+@keyframes glow{
+
+    0%,100%{
+        color: aliceblue;
+        text-shadow: 0 0 20px #ff79c9, 0 0 100px #ff79c9;
+    }
+        
+    10%,90%{
+        color: #111;
+        text-shadow: none;
+    }  
+}
+
+.container > span:nth-child(2){
+    animation-delay: 1s;
+}
+.container > span:nth-child(3){
+    animation-delay: 2s;
+}
+.container > span:nth-child(4){
+    animation-delay: 3s;
+}
+.container > span:nth-child(5){
+    animation-delay: 4s;
+}
+.container > span:nth-child(6){
+    animation-delay: 5s;
+}
+.container > span:nth-child(7){
+    animation-delay: 6s;
+}
+.container > span:nth-child(8){
+    animation-delay: 7s;
+}
+.container > span:nth-child(9){
+    animation-delay: 8s;
+}
+.container > span:nth-child(10){
+    animation-delay: 9s;
+}
+.container > span:nth-child(11){
+    animation-delay: 10s;
+}
+.container > span:nth-child(12){
+    animation-delay: 11s;
+}
+.container > span:nth-child(13){
+    animation-delay: 12s;
+}
